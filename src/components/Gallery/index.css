@@ -1,0 +1,49 @@
+/* Write your code here. */
+.gallery-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  color: blue;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content {
+  font-family: 'Bree Serif';
+  color: grey;
+  margin: 6px;
+  color: black;
+  text-align: right;
+}
+.image {
+  width: 100%;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .image {
+    width: 50%;
+  }
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}

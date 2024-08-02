@@ -1,0 +1,33 @@
+/* Write your code here. */
+
+.thumbnail {
+  width: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.thumbnail:hover {
+  transform: scale(1.08);
+}
+
+@media screen and (max-width: 768px) {
+  .thumbnail {
+    width: 40px;
+  }
+
+  .thumbnail:hover {
+    transform: scale(2);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .thumbnail {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .thumbnail {
+    width: 20px;
+  }
+}
